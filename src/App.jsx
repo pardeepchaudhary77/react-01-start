@@ -10,6 +10,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
+import { ChartCard3 } from './components/chart-card3'
 function App() {
   return (
     <>
@@ -289,9 +290,7 @@ function App() {
                     Learn how to grow your business with our expert advice.
                   </p>
                 </div>
-                <div className="flex min-h-svh flex-col items-center justify-center">
-                  <Button>Click me</Button>
-                </div>
+                <ChartCard3 className="mt-10 w-full" title='Pardeep' description="My Demo" />
                 <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                   <Card 
                     title="Boost your conversion rate"
